@@ -10,7 +10,6 @@ npm install @s-yh/vue-scroll-bar
 ### Usage example
 
 ```html
-import ScrollBar from '@s-yh/vue-scroll-bar'
 
 <ScrollBar height="50px" width="200px">
 	<ul>
@@ -19,6 +18,11 @@ import ScrollBar from '@s-yh/vue-scroll-bar'
 		<li>Hello</li>
     </ul>
 </ScrollBar>
+
+import ScrollBar from '@s-yh/vue-scroll-bar'
+export default {
+    components: {Scrollbar}
+}
 ```
 ## Release History
 

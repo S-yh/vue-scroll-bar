@@ -1,10 +1,11 @@
 {
   "name": "@s-yh/vue-scroll-bar",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A scrollbar for vue",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "webpack --progress"
+    "build": "webpack --progress",
+    "pub": "npm publish --access=public"
   },
   "repository": {
     "type": "git",

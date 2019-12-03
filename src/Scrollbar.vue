@@ -122,7 +122,7 @@
                 //计算出滚动条应该在滚动框中所处的位置，scrollTop
 
                 this.wrap.scrollTop = thumbPositionPercentage * this.wrap.scrollHeight / 100;
-                this.bar.style.opacity = 1
+                this.bar.style.opacity = "1"
             },
 
             mouseUpDocumentHandler(e) {
@@ -130,7 +130,7 @@
                 this.clickThumbAxis = 0;
                 document.removeEventListener("mousemove", this.mouseMoveDocumentHandler);
                 document.onselectstart = null;
-                this.bar.style.opacity = 0
+                this.bar.style.opacity = "0"
             }
         }
     }
